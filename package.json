@@ -1,0 +1,50 @@
+{
+  "name": "cursor-api-sdk",
+  "version": "1.0.0",
+  "description": "A comprehensive JavaScript SDK for the Cursor API",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "example": "node examples/cursor-api-examples.js"
+  },
+  "keywords": [
+    "cursor",
+    "api",
+    "sdk",
+    "ai",
+    "code-generation",
+    "chat-completion"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "@types/jest": "^29.0.0",
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "@typescript-eslint/parser": "^6.0.0",
+    "eslint": "^8.0.0",
+    "jest": "^29.0.0",
+    "prettier": "^3.0.0",
+    "ts-jest": "^29.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/cursor-api-sdk.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/cursor-api-sdk/issues"
+  },
+  "homepage": "https://github.com/yourusername/cursor-api-sdk#readme"
+}
